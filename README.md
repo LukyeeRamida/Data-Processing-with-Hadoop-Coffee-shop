@@ -106,25 +106,25 @@ A newly opened coffee shop wants to create an data system with hadoop that calcu
 
 4. Clean data "customers" and "transactions" with spark before store to Hive
 
-![alt text](pic\image-22.png)
+![alt text](pic/image-22.png)
 * At batch layer, submit spark.py
-![alt text](pic\image-23.png)
-![alt text](pic\image-25.png)
-![alt text](pic\image-26.png)
+![alt text](pic/image-23.png)
+![alt text](pic/image-25.png)
+![alt text](pic/image-26.png)
 * At speed layer, submit spark_streaming.py
-![alt text](pic\image-24.png)
-![alt text](pic\image-27.png)
-![alt text](pic\image-28.png)
-![alt text](pic\image-29.png)
+![alt text](pic/image-24.png)
+![alt text](pic/image-27.png)
+![alt text](pic/image-28.png)
+![alt text](pic/image-29.png)
 
 5. Generate data for membership and points analyic 
 * Create loyalty table
-![alt text](pic\image-30.png)
-![alt text](pic\image-31.png)
-![alt text](pic\image-32.png)
+![alt text](pic/image-30.png)
+![alt text](pic/image-31.png)
+![alt text](pic/image-32.png)
 
 6. Last step, use oozie to schedule job for generate loyalty table
-![alt text](pic\image-33.png)
-![alt text](pic\image-34.png)
+![alt text](pic/image-33.png)
+![alt text](pic/image-34.png)
 
 Thank you references data from https://school.datath.com/
